@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontswesome -->
+    <script src="https://kit.fontawesome.com/40668b6fde.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="spotify.css">
+    <title>Spotify - Your Fav Music Is Here</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="containerr">
+        <div class="songlist">
+            <h2>Best of NCS - No Copyright Sound</h2>
+            <div>
+                <div class="songitem">
+                    <img src="images/1.jpg" alt="">
+                    <span>Wildflower</span>
+                    <span class="songplay"><span class="time">05:34                    
+                        <i id="0" class="fa-solid fa-circle-play play-button" style="font-size: 18px;"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="images/2.jpg" alt="">
+                    <span>Anxiety</span>
+                    <span class="songplay"><span class="time">05:34                    
+                        <i id="1" class="fa-solid fa-circle-play play-button" style="font-size: 18px;"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="images/3.jpg" alt="">
+                    <span>Everything inside</span>
+                    <span class="songplay"><span class="time">05:34                    
+                        <i id="2" class="fa-solid fa-circle-play play-button" style="font-size: 18px;"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="images/4.jpg" alt="">
+                    <span>love me</span>
+                    <span class="songplay"><span class="time">05:34                    
+                        <i id="3" class="fa-solid fa-circle-play play-button" style="font-size: 18px;"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="images/5.jpg" alt="">
+                    <span>kid i used to be</span>
+                    <span class="songplay"><span class="time">05:34                    
+                        <i id="4" class="fa-solid fa-circle-play play-button" style="font-size: 18px;"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="images/6.jpg" alt="">
+                    <span>shadow</span>
+                    <span class="songplay"><span class="time">05:34                    
+                        <i id="5" class="fa-solid fa-circle-play play-button" style="font-size: 18px; cursor: pointer;"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progessbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="prev" class="fa-solid fa-backward-step fa-2x"></i>
+            <i class="fa-solid fa-circle-play fa-2x" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-forward-step fa-2x"></i>
+
+        </div>
+        <div class="gif">
+            <img src="songs/playing.gif" alt="" width="42px" id="gif2"><span id="masterSongName">wildflower</span>
+        </div>
+    </div>
+    
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="spotify.js"></script>
+</body>
+</html>
